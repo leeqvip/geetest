@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deba0112-76af-4d19-a292-976a06fa55cc" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dhgdnnpXqhF9pQiC1Ss9ARJraP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestOneLogin_CheckPhone in github.com/techoner/geetest">
+    <configuration name="TestHmacSha256 in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/techoner/geetest" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHmacSha256$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOneLogin_CheckPhone in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/techoner/geetest" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestOneLogin_CheckPhone$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOneLogin_DecodePhone in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/techoner/geetest" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestOneLogin_DecodePhone$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestOneLogin_CheckPhone in github.com/techoner/geetest" />
+        <item itemvalue="Go Test.TestOneLogin_DecodePhone in github.com/techoner/geetest" />
+        <item itemvalue="Go Test.TestHmacSha256 in github.com/techoner/geetest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="418" key="#Go_Modules" timestamp="1592882968207">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="752" y="418" key="#Go_Modules/0.0.1920.1170@0.0.1920.1170" timestamp="1592882968207" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1592994024227">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024227" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1592994024226">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1592994024226">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1592994024226">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
+  </component>
+</project>
