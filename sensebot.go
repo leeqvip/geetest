@@ -2,8 +2,9 @@ package geetestbot
 
 import (
 	"encoding/json"
-	geetestlib "github.com/GeeTeam/gt3-golang-sdk/geetest"
+	"github.com/GeeTeam/gt3-golang-sdk/geetest"
 )
+
 // SenseBot
 type SenseBot interface {
 	Register(userID, userIP string) (*RegisterResult, error)
@@ -11,10 +12,9 @@ type SenseBot interface {
 }
 
 type RegisterResult struct {
-	geetestlib.FailbackRegisterRespnse
+	geetest.FailbackRegisterRespnse
 	Status int8 `json:"status"`
 }
-
 
 func (s *api) Register(userID, userIP string) (*RegisterResult, error) {
 	status, response := s.geetestlib.PreProcess(userID, userIP)

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deba0112-76af-4d19-a292-976a06fa55cc" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/geetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geetest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onelogin.go" beforeDir="false" afterPath="$PROJECT_DIR$/geetest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onelogin_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/geetest_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sensebot.go" beforeDir="false" afterPath="$PROJECT_DIR$/sensebot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
