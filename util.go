@@ -1,4 +1,4 @@
-package geetest
+package geetestbot
 
 import (
 	"crypto/hmac"

@@ -1,4 +1,4 @@
-module github.com/leeqvip/geetest
+module gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot
 
 go 1.14
 

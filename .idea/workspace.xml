@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="deba0112-76af-4d19-a292-976a06fa55cc" name="默认更改列表" comment="">
+    <list default="true" id="deba0112-76af-4d19-a292-976a06fa55cc" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geetest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onelogin.go" beforeDir="false" afterPath="$PROJECT_DIR$/geetest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onelogin_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/geetest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sensebot.go" beforeDir="false" afterPath="$PROJECT_DIR$/sensebot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +26,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,80 +46,116 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upload" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Go Test.TestOneLogin_CheckPhone in github.com/techoner/geetest">
-    <configuration name="TestHmacSha256 in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestOneLogin_DecodePhone in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="geetest" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHmacSha256 in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/techoner/geetest" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestHmacSha256$" />
+      <package value="gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHmacSha256\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestOneLogin_CheckPhone in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="geetest" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/techoner/geetest" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestOneLogin_CheckPhone$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOneLogin_CheckPhone in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOneLogin_CheckPhone\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestOneLogin_DecodePhone in github.com/techoner/geetest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="geetest" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/techoner/geetest" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestOneLogin_DecodePhone$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOneLogin_DecodePhone in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOneLogin_DecodePhone\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="geetest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestOneLogin_DecodePhone in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
+        <item itemvalue="Go Test.TestOneLogin_CheckPhone in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
+        <item itemvalue="Go Test.TestHmacSha256 in gitlab.stnts.com/yidong-yingyongxiangmubu/gopkg/geetestbot" />
         <item itemvalue="Go Test.TestOneLogin_CheckPhone in github.com/techoner/geetest" />
         <item itemvalue="Go Test.TestOneLogin_DecodePhone in github.com/techoner/geetest" />
-        <item itemvalue="Go Test.TestHmacSha256 in github.com/techoner/geetest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="752" y="418" key="#Go_Modules" timestamp="1592882968207">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state x="752" y="418" key="#Go_Modules/0.0.1920.1170@0.0.1920.1170" timestamp="1592882968207" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1592994024227">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024227" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1592994024226">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1592994024226">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1592994024226">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1592994024226" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package geetest
+package geetestbot
 
 import (
 	"bytes"
@@ -10,6 +10,11 @@ import (
 	"net/http"
 	"time"
 )
+
+type OneLogin interface {
+	CheckPhone(processID, token string, authCode string) (*CheckPhoneResponse, error)
+	DecodePhone(phone string) (string, error)
+}
 
 const OneLoginURL = "https://onelogin.geetest.com/check_phone"
 
@@ -34,26 +39,8 @@ type CheckPhoneResponse struct {
 	DeviceName  string `json:"device_name"`
 }
 
-type OneLogin interface {
-	CheckPhone(processID, token string, authCode string) (*CheckPhoneResponse, error)
-	DecodePhone(phone string) (string, error)
-	GetSign(timestamp int64) string
-}
-
-type oneLogin struct {
-	appID  string
-	appKey string
-}
-
-func NewOneLogin(appID string, appKey string) OneLogin {
-	return &oneLogin{
-		appID:  appID,
-		appKey: appKey,
-	}
-}
-
 // CheckPhone 一键登录APP
-func (o *oneLogin) CheckPhone(processID, token string, authCode string) (*CheckPhoneResponse, error) {
+func (o *api) CheckPhone(processID, token string, authCode string) (*CheckPhoneResponse, error) {
 	timestamp := time.Now().UnixNano() / 1e6
 	sign := o.GetSign(timestamp)
 	r := CheckPhoneRequest{
@@ -94,11 +81,7 @@ func (o *oneLogin) CheckPhone(processID, token string, authCode string) (*CheckP
 	return &response, err
 }
 
-func (o *oneLogin) GetSign(timestamp int64) string {
-	return HmacSha256([]byte(fmt.Sprintf("%s&&%d", o.appID, timestamp)), []byte(o.appKey))
-}
-
-func (o *oneLogin) DecodePhone(phone string) (string, error) {
+func (o *api) DecodePhone(phone string) (string, error) {
 	p, err := hex.DecodeString(phone)
 	if err != nil {
 		return "", err
@@ -114,7 +97,7 @@ func (o *oneLogin) DecodePhone(phone string) (string, error) {
 	return string(b), nil
 }
 
-func (o *oneLogin) EncodePhone(phone string) (string, error) {
+func (o *api) EncodePhone(phone string) (string, error) {
 	b, err := openssl.AesCBCEncrypt([]byte(phone), []byte(o.appKey), iv, openssl.PKCS7_PADDING)
 	if err != nil {
 		return "", nil
